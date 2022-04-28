@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/techdome/static/css/main.ef43fe63.css",
+    "main.js": "/techdome/static/js/main.00c3e08b.js",
+    "index.html": "/techdome/index.html",
+    "main.ef43fe63.css.map": "/techdome/static/css/main.ef43fe63.css.map",
+    "main.00c3e08b.js.map": "/techdome/static/js/main.00c3e08b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ef43fe63.css",
+    "static/js/main.00c3e08b.js"
+  ]
+}
