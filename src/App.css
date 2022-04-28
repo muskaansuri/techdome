@@ -1,38 +1,133 @@
-.App {
-  text-align: center;
+li {
+  text-decoration: none;
+  list-style: none;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+hr {
+  width: 180px;
+  text-align: end;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+img {
+  height: 180px;
+  width: 180px;
+}
+
+.main {
+  display: flex;
+  width: 95%;
+  margin: auto;
+  margin-top: 30px;
+  align-items: flex-start;
+
+  justify-content: space-between;
+}
+@media (max-width: 700px) {
+  .main {
+    flex-direction: column;
+    align-items: center;
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+@media (max-width: 700px) {
+  .title {
+    font-size: 30px;
+    justify-content: center;
+    display: flex;
+  }
+}
+
+.programs {
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 3px;
+}
+
+@media (max-width: 700px) {
+  .programs {
+    flex-direction: column;
+    text-align: center;
+  } 
+  .filters{ 
+    margin-bottom: 30px; 
+    
+  }
+}
+
+li {
+  cursor: pointer;
+  margin-top: 20px;
+  background-color: lightgreen;
+  padding: 10px 20px;
+  border-radius: 4px;
+}
+
+li:hover {
+  background-color: rgb(55, 114, 55);
+}
+
+li:active {
+  background-color: rgb(55, 114, 55);
+}
+
+img {
+  padding: 20px;
+  background-color: rgb(230, 228, 228);
+}
+.filters {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  margin-right: 20px;
+  width: 200px;
+  padding: 20px;
+}
+.data {
+  background-color: white;
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-bottom: 20px;
+}
+.dflex {
+  display: flex;
+  justify-content: space-between;
+}
+.img-container {
+  margin: 10px;
+}
+
+.textDiv {
+  padding: 10px;
+}
+
+.textDiv p {
+  color: gray;
+}
+
+.flightname {
+  color: rgb(54, 31, 138);
+}
+ul {
+  padding-inline-start: 0px;
+} 
+
+.heading{ 
+  display: fl;
+}
+
+.name {
+  display: flex;
+  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  margin-top: 10px;
+  margin-bottom: 20px;
 }
